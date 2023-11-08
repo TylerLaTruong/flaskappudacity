@@ -87,4 +87,4 @@ Run pipeline successfully
 So that each environment we have a set of resources and its own pipeline. Developer just merge the code to target branch, pipieline will auto run
 ## Demo
 
-Youtube link [Video introduction project](https://youtu.be/I1pznSQiWFc)
+Youtube link [Video introduction project]()
