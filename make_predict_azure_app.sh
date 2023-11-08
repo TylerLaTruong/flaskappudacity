@@ -25,4 +25,4 @@ curl -d '{
    }
 }'\
      -H "Content-Type: application/json" \
-     -X POST https://flaskappyendt.azurewebsites.net:$PORT/predict 
+     -X POST https://flaskappytruonglv9.azurewebsites.net:$PORT/predict 
