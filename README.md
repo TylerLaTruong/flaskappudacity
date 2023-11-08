@@ -13,7 +13,7 @@ This project demonstrate how to manage and devlop a python project using CI/CD w
 
 ### Instructions for running the Python project
 #### Project cloned into Azure Cloud Shell and test
-Create a GubHub Repo (https://github.com/yiyeon9999/Azure-devops.git)
+Create a GubHub Repo (https://github.com/TylerLaTruong/flaskappudacity)
 
 Add created ssh key to your GitHub: Go to Settings => SSH and GPG keys => New SSH Key
 
@@ -27,18 +27,18 @@ or
 
 `$ cd Azure-devops`
 
-![Architecture Diagram](./Images/CloneCode.png )
+![Architecture Diagram](./Images/clone source code.jpg )
 
 * Step testing 
 python -m venv venv
 source venv/bin/activate
 Run make all to install dependency, test and lint your code using command: make all
 
-![Architecture Diagram](./Images/MakeAll.png )
+![Architecture Diagram](./Images/make all.jpg )
 
 * Testing result:
 After above step you see dependencies are installed, lint rate 10/10 and tests are passed as below:
-![Architecture Diagram](./Images/ResultMakeAll.png )
+![Architecture Diagram](./Images/result make all.jpg )
 #### Project running on Azure App Service
 Go to your Github Account and enable Github Actions
 Replace .yml file with your code to make CI when any push actions perform
