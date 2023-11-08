@@ -1,25 +1,16 @@
 setup:
-	python3 -m venv ~/.venv
-	#source ~/.venv/bin/activate
+	python3 -m venv ~/.udacity-devops
 
 install:
 	pip install --upgrade pip &&\
 		pip install -r requirements.txt
-	#pip install pytest
-	#pip3 install pytest
-	#pip install click
-	#pip3 install click
-	#pip install pylint
-	#pip3 install pylint
-	
+
 test:
-	python3 -m pytest -vv test_hello.py
-	#python -m pytest -vv --cov=myrepolib tests/*.py
-	#python -m pytest --nbval notebook.ipynb
+	python -m pytest -vv test_hello.py
+
 
 lint:
-	pylint --disable=R,C hello.py
-	#pylint --disable=R,C,W1203 app.py
-	#test github action
+	#hadolint Dockerfile #uncomment to explore linting Dockerfiles
+	pylint --disable=R,C,W1203,W0702,C0301,R1710 app.py
 
 all: install lint test
