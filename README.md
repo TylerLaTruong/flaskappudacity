@@ -1,11 +1,6 @@
 # Overview
 This project demonstrate how to manage and devlop a python project using CI/CD with Azure Devops
 
-## Project Plan
-* Trello plan: https://trello.com/invite/b/4E32hnB3/ATTIbf4f02bfb832b9275d9af089f9bd2bf33E959E82/management-task
-
-* Project Management Template: https://docs.google.com/spreadsheets/d/1B0O8UxF7AWTWCsKoeisx4RYYAEXKs1XD_pudlr3440U/edit?usp=sharing
-
 ## Instructions
 
 ### The architectural Diagram:
@@ -27,7 +22,7 @@ or
 
 `$ cd Azure-devops`
 
-![Architecture Diagram](./Images/clone source code.jpg )
+![Architecture Diagram](./Images/clone source code.jpg)
 
 * Step testing 
 python -m venv venv
@@ -55,12 +50,12 @@ And see the result deploy successfully:
 ![Architecture Diagram](./Images/DeploySuccess.png )
 
 Can go to the url and check as well:
-![Architecture Diagram](./Images/WebAppSuccess.png )
+![Architecture Diagram](./Images/Websuccess.png )
 
 Note: The app service was created before.
 
 * Running Azure App Service from Azure Pipelines automatic deployment
-![Architecture Diagram](./Images/RunPipelineSuccess.png)
+![Architecture Diagram](./Images/RunPipeline.png )
 
 * Successful prediction from deployed flask app in Azure Cloud Shell.  [Use this file as a template for the deployed prediction](https://github.com/udacity/nd082-Azure-Cloud-DevOps-Starter-Code/blob/master/C2-AgileDevelopmentwithAzure/project/starter_files/flask-sklearn/make_predict_azure_app.sh).
 The output should look similar to this:
@@ -70,25 +65,24 @@ Run prediction against a working devloyed Azure Application using command:
 ```bash
 $ chmod +xr make_predict_azure_app.sh ./make_predict_azure_app.sh
 ```
-![Architecture Diagram](./Images/make_predict.png )
+![Architecture Diagram](./Images/makepredic.png )
 
 * Output of streamed log files from deployed application
 
-az webapp log tail -g Azuredevops --name flaskappyendt
+az webapp log tail -g Azuredevops --name flaskapptruonglv9
 
-![Architecture Diagram](./Images/Logs.png)
+![Architecture Diagram](./Images/LogStream.png)
 
 ## Enhancements
 
 If you want create resource fast(VM, Network, Disk...) you can:
 Create an Agent (VM): Using Azure UI to create a default VM quickly
-![Architecture Diagram](./Images/startAgent.png )
+![Architecture Diagram](./Images/vm.png )
 
 * Using terraform file
 * Create template then can create environment pipelines with ease
 Run pipeline successfully
-
-![Architecture Diagram](./Images/RunPipelineSuccess.png )
+![Architecture Diagram](./Images/runpipelinesucces.png )
 
 So that each environment we have a set of resources and its own pipeline. Developer just merge the code to target branch, pipieline will auto run
  * Updated Load test an application using Locust
