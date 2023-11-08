@@ -22,18 +22,18 @@ or
 
 `$ cd Azure-devops`
 
-![Architecture Diagram](./Images/clone source code.jpg)
+![Architecture Diagram](./Images/clonesourcecode.jpg)
 
 * Step testing 
 python -m venv venv
 source venv/bin/activate
 Run make all to install dependency, test and lint your code using command: make all
 
-![Architecture Diagram](./Images/make all.jpg )
+![Architecture Diagram](./Images/makeall.jpg )
 
 * Testing result:
 After above step you see dependencies are installed, lint rate 10/10 and tests are passed as below:
-![Architecture Diagram](./Images/result make all.jpg )
+![Architecture Diagram](./Images/resultmakeall.jpg )
 #### Project running on Azure App Service
 Go to your Github Account and enable Github Actions
 Replace .yml file with your code to make CI when any push actions perform
@@ -85,11 +85,6 @@ Run pipeline successfully
 ![Architecture Diagram](./Images/runpipelinesucces.png )
 
 So that each environment we have a set of resources and its own pipeline. Developer just merge the code to target branch, pipieline will auto run
- * Updated Load test an application using Locust
- ![Architecture Diagram](./Images/locust-reponsetimes.png )
-
- *Locust report
- ![Architecture Diagram](./Images/locust-report.png)
 ## Demo
 
 Youtube link [Video introduction project](https://youtu.be/I1pznSQiWFc)
