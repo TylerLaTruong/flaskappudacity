@@ -19,11 +19,11 @@ Add created ssh key to your GitHub: Go to Settings => SSH and GPG keys => New SS
 
 * Open Cloud shell using bash and clone project then go to project folder:
 
- git@github.com:yiyeon9999/Azure-devops.git
+ git@github.com:TylerLaTruong/flaskappudacity.git
 
 or
 
-`$ git clone  git@github.com:yiyeon9999/Azure-devops.git`
+`$ git clone  git@github.com:TylerLaTruong/flaskappudacity.git`
 
 `$ cd Azure-devops`
 
@@ -49,7 +49,7 @@ CD Azure:
 Run your app using command: python app.py
 
 * You can deploy this project direct to azure using command:
-az webapp up --name flaskappyendt --resource-group Azuredevops --sku B1 --logs --runtime PYTHON:3.9 
+az webapp up --name flaskapptruonglv9 --resource-group Azuredevops --sku B1 --logs --runtime PYTHON:3.9 
 
 And see the result deploy successfully:
 ![Architecture Diagram](./Images/DeploySuccess.png )
