@@ -1,7 +1,11 @@
 # Overview
 This project demonstrate how to manage and devlop a python project using CI/CD with Azure Devops
+
+![Static Badge](https://img.shields.io/badge/Python_application_test_with_Gihub_Actions-blackpassing-green?style=flat&logo=github)
+
+
 ## Project Plan 
-* [Trello dashboard](https://trello.com/b/Jy2rWoaj/udacity-devops-plan)
+* [Trello dashboard](https://trello.com/invite/b/Jy2rWoaj/ATTI8651cf8ccf73db6b24c5612a223f6e09219C3C92/udacity-devops-plan)
  
 * [Spreadsheet](https://docs.google.com/spreadsheets/d/1-TtVTPUGdplmeye_9q2ONDHgn_mrGUcE/edit?usp=sharing&ouid=110405549560478518643&rtpof=true&sd=true)
   
@@ -92,7 +96,7 @@ Run pipeline successfully
 So that each environment we have a set of resources and its own pipeline. Developer just merge the code to target branch, pipieline will auto run
 
 * Updated Load test an application using Locust
-![Architecture Diagram](./Images/locust-reponsetimes.png )
+![Architecture Diagram](./Images/locust.png )
 
 ## Demo
 
