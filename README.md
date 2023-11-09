@@ -1,6 +1,10 @@
 # Overview
 This project demonstrate how to manage and devlop a python project using CI/CD with Azure Devops
-
+## Project Plan 
+* [Trello dashboard](https://trello.com/b/Jy2rWoaj/udacity-devops-plan)
+ 
+* [Spreadsheet](https://docs.google.com/spreadsheets/d/1-TtVTPUGdplmeye_9q2ONDHgn_mrGUcE/edit?usp=sharing&ouid=110405549560478518643&rtpof=true&sd=true)
+  
 ## Instructions
 
 ### The architectural Diagram:
@@ -38,7 +42,8 @@ After above step you see dependencies are installed, lint rate 10/10 and tests a
 Go to your Github Account and enable Github Actions
 Replace .yml file with your code to make CI when any push actions perform
 Push the changes to GitHub and verify that both lint and test steps pass in your project
-![Architecture Diagram](./Images/Passing of Github Action.png )
+![Architecture Diagram](./Images/githubaction.png )
+![Architecture Diagram](./Images/githubflow.png )
 
 CD Azure:
 Run your app using command: python app.py
